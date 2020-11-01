@@ -1,0 +1,23 @@
+.navBar {
+    grid-area: sidenav;
+    background-color: lightgray;
+    height: 350px;
+    padding: 10px;
+}
+
+.item {
+    color: black;
+    font-size: 20px;
+}
+
+.item.active {
+    color: red;
+}
+
+.friendsPreview{
+    background-color: white;
+    height: 200px;
+    margin: 10px auto;
+    border: black 2px solid;
+    padding: 5px;
+}

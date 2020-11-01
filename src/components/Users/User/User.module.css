@@ -1,0 +1,12 @@
+.user {
+    border: black 1px solid;
+    padding: 20px;
+    margin: 5px;
+}
+
+.avatar {
+    height: 100px;
+    width: 80px;
+    background-color: slategray;
+    border: #475477 1px solid;
+}

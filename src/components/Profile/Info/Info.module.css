@@ -1,0 +1,21 @@
+.info {
+    grid-area: info;
+    display: grid;
+    grid-template-areas: 'avatar about';
+    grid-template-columns: 1fr 3fr;
+}
+
+.avatar{
+    grid-area: avatar;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+.profilePic{
+    width: 200px;
+    max-height: 300px;
+}
+.about{
+    grid-area: about;
+    background-color: cornflowerblue;
+    margin: 10px;
+}

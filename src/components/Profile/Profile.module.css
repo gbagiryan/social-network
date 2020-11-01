@@ -1,0 +1,7 @@
+.profile{
+    display: grid;
+    grid-template-areas: 'info' 'posts';
+    grid-template-rows: minmax(300px, auto) minmax(300px, auto);
+    grid-gap: 10px;
+    color: black;
+}

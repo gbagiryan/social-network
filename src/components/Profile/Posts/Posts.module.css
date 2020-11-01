@@ -1,0 +1,14 @@
+.posts {
+    grid-area: posts;
+    margin: 10px;
+}
+.newPost{
+    width: 500px;
+    min-height: 150px ;
+}
+.posts button{
+    background-color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 10px;
+}

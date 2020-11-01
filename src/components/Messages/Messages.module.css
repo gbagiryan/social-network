@@ -1,0 +1,30 @@
+.messages{
+    display: grid;
+    grid-template-areas: 'dialogs conversation';
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 630px;
+    grid-gap: 10px;
+    background-color: lightgray;
+    color: black;
+}
+.conversations {
+    grid-area: conversation;
+    margin: 10px;
+    border: #28314E 2px solid;
+}
+.dialogs{
+    grid-area: dialogs;
+    border: #28314E 2px solid;
+    margin: 10px;
+}
+.writeMessage{
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+}
+.messages button{
+    background-color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 10px;
+}

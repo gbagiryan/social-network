@@ -1,0 +1,12 @@
+.users{
+    margin: 10px;
+}
+.activePage {
+    color: red;
+}
+
+.pageNum {
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
